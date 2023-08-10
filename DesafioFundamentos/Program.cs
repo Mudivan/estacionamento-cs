@@ -28,7 +28,7 @@ while (exibirMenu)
     Console.WriteLine("2 - Remover veículo");
     Console.WriteLine("3 - Listar veículos");
     Console.WriteLine("4 - Encerrar");
-
+    //Case, que chama um método de acordo com a opção escolhida
     switch (Console.ReadLine())
     {
         case "1":
